@@ -6,3 +6,5 @@
 
 Use the box (generated in `build` subdirectory) with
 [Vagrant](http://vagrantup.com) and [VirtualBox](http://virtualbox.org).
+
+origin: https://bitbucket.org/ariya/packer-vagrant-linux
