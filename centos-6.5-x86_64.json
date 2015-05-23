@@ -7,8 +7,8 @@
         "guest_os_type": "RedHat_64",
         "disk_size": 40960,
 
-        "iso_url": "http://mirrors.kernel.org/centos/6.5/isos/x86_64/CentOS-6.5-x86_64-minimal.iso",
-        "iso_checksum": "f21a71e8e31df73297bdd1ccd4a64a36831284bd",
+        "iso_url": "http://centos.mbni.med.umich.edu/mirror/6.6/isos/x86_64/CentOS-6.6-x86_64-minimal.iso",
+        "iso_checksum": "4ed6c56d365bd3ab12cd88b8a480f4a62e7c66d2",
         "iso_checksum_type": "sha1",
 
         "boot_command": [
@@ -18,6 +18,7 @@
 
         "http_directory": "http",
         "guest_additions_path": "VBoxGuestAdditions_{{.Version}}.iso",
+        "guest_additions_url": "http://dlc-cdn.sun.com/virtualbox/{{.Version}}/VBoxGuestAdditions_{{.Version}}.iso",
 
         "ssh_username": "vagrant",
         "ssh_password": "vagrant",
